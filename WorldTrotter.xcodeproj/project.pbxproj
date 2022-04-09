@@ -17,6 +17,7 @@
 		1921B9E12800CB1D008FEA71 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921B9E02800CB1D008FEA71 /* WorldTrotterUITests.swift */; };
 		1921B9E32800CB1D008FEA71 /* WorldTrotterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921B9E22800CB1D008FEA71 /* WorldTrotterUITestsLaunchTests.swift */; };
 		1921B9F02801D09D008FEA71 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921B9EF2801D09D008FEA71 /* MapViewController.swift */; };
+		1921B9F22801DAC3008FEA71 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921B9F12801DAC3008FEA71 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1921B9E02800CB1D008FEA71 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		1921B9E22800CB1D008FEA71 /* WorldTrotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1921B9EF2801D09D008FEA71 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1921B9F12801DAC3008FEA71 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../../Quiz/Quiz/QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				1921B9BF2800CB1A008FEA71 /* AppDelegate.swift */,
 				1921B9C12800CB1A008FEA71 /* SceneDelegate.swift */,
 				1921B9C32800CB1A008FEA71 /* ConversionViewController.swift */,
+				1921B9F12801DAC3008FEA71 /* QuizViewController.swift */,
 				1921B9C52800CB1A008FEA71 /* Main.storyboard */,
 				1921B9EF2801D09D008FEA71 /* MapViewController.swift */,
 				1921B9C82800CB1C008FEA71 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1921B9F22801DAC3008FEA71 /* QuizViewController.swift in Sources */,
 				1921B9C42800CB1A008FEA71 /* ConversionViewController.swift in Sources */,
 				1921B9C02800CB1A008FEA71 /* AppDelegate.swift in Sources */,
 				1921B9C22800CB1A008FEA71 /* SceneDelegate.swift in Sources */,

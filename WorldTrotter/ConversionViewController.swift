@@ -19,8 +19,8 @@ class ConversionViewController: UIViewController {
     }
     
     func setGradientBackground() {
-        let colorTop = UIColor(red: 255.0/255.0, green: 100.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
-        let colorBottom = UIColor(red: 255.0/255.0, green: 77.0/255.0, blue: 50.0/255.0, alpha: 1.0).cgColor
+        let colorTop = UIColor(red: 250.0/255.0, green: 60/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
+        let colorBottom = UIColor(red: 250.0/255.0, green: 80/255.0, blue: 50.0/255.0, alpha: 1.0).cgColor
 
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [colorTop,colorBottom]
