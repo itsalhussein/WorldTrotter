@@ -59,7 +59,7 @@
                             <constraint firstItem="pJ4-bs-Vcr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="Mqe-up-QSS"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Convert" selectedImage="ConvertIcon" id="ocX-o9-uch"/>
+                    <tabBarItem key="tabBarItem" title="Convert" image="ConvertIcon" id="ocX-o9-uch"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,7 +73,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </mapView>
-                    <tabBarItem key="tabBarItem" title="Map" selectedImage="MapIcon" id="18I-CQ-8QR"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="18I-CQ-8QR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZp-DR-HOz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -87,7 +87,7 @@
                     <tabBar key="tabBar" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rqY-g5-4sD">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" systemColor="tintColor"/>
+                        <color key="tintColor" systemColor="systemOrangeColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="CEO-Au-BRh"/>
@@ -104,9 +104,6 @@
         <image name="MapIcon" width="48.333332061767578" height="32.333332061767578"/>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
