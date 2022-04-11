@@ -1,0 +1,42 @@
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "18I-CQ-8QR"; */
+"18I-CQ-8QR.title" = "الموقع";
+
+/* Class = "UILabel"; text = "???"; ObjectID = "1Ac-lB-KmC"; */
+"1Ac-lB-KmC.text" = "???";
+
+/* Class = "UILabel"; text = "???"; ObjectID = "2SC-7I-LEN"; */
+"2SC-7I-LEN.text" = "???";
+
+/* Class = "UITabBarItem"; title = "Quiz"; ObjectID = "5z8-CG-at4"; */
+"5z8-CG-at4.title" = "الأسئلة";
+
+/* Class = "UILabel"; text = "degrees Celsius"; ObjectID = "Aa9-ds-ubr"; */
+"Aa9-ds-ubr.text" = "درجة مئوية";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "I34-cp-7D9"; */
+"I34-cp-7D9.text" = "100";
+
+/* Class = "UIButton"; configuration.title = "Next Question"; ObjectID = "OIB-4e-X16"; */
+"OIB-4e-X16.configuration.title" = "السؤال التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OIB-4e-X16"; */
+"OIB-4e-X16.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "degrees Fahrenheit"; ObjectID = "SJY-xo-E68"; */
+"SJY-xo-E68.text" = "درجة فهرنهايت";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "oQB-gP-dPF"; */
+"oQB-gP-dPF.placeholder" = "أدخل القيمة";
+
+/* Class = "UITabBarItem"; title = "Convert"; ObjectID = "ocX-o9-uch"; */
+"ocX-o9-uch.title" = "حوّل";
+
+/* Class = "UIButton"; configuration.title = "Show Answer"; ObjectID = "syR-Fh-8mH"; */
+"syR-Fh-8mH.configuration.title" = "أعرض الإجابة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "syR-Fh-8mH"; */
+"syR-Fh-8mH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "w01-1N-mjk"; */
+"w01-1N-mjk.text" = "تقابل";

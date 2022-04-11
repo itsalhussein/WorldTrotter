@@ -53,6 +53,9 @@
 		1921B9E22800CB1D008FEA71 /* WorldTrotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1921B9EF2801D09D008FEA71 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1921B9F12801DAC3008FEA71 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../../Quiz/Quiz/QuizViewController.swift; sourceTree = "<group>"; };
+		1980BF562804CA4E00E6FBF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1980BF572804CAC100E6FBF0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		1980BF582804CAC900E6FBF0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +222,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				ar,
 			);
 			mainGroup = 1921B9B32800CB1A008FEA71;
 			productRefGroup = 1921B9BD2800CB1A008FEA71 /* Products */;
@@ -309,6 +314,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				1921B9C62800CB1A008FEA71 /* Base */,
+				1980BF562804CA4E00E6FBF0 /* en */,
+				1980BF572804CAC100E6FBF0 /* es */,
+				1980BF582804CAC900E6FBF0 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -328,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -389,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
