@@ -8,9 +8,9 @@
 import UIKit
 import MapKit
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, MKMapViewDelegate {
     //MARK: - Properties
-    
+    var userLocation: CLLocationManager!
     var mapView: MKMapView!
     
     override func loadView() {
@@ -34,7 +34,7 @@ class MapViewController: UIViewController {
         let margins = view.layoutMarginsGuide
         let leadingConstraint = segmentedControl.leadingAnchor.constraint(equalTo: margins.leadingAnchor)
         let trailingConstraint = segmentedControl.trailingAnchor.constraint(equalTo: margins.trailingAnchor)
-    
+        
         topConstraint.isActive = true
         leadingConstraint.isActive = true
         trailingConstraint.isActive = true
@@ -58,8 +58,17 @@ class MapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("MapVC loaded its view.")
+        mapView.delegate = self
+        userLocation = CLLocationManager()
+        userLocation.requestWhenInUseAuthorization()
+        mapView.showsUserLocation = true
+        print("MapViewController loaded its view.")
+    }
+    
+    func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation){
+        let span = MKCoordinateSpan(latitudeDelta: 0.08, longitudeDelta: 0.08)
+        let theRegion = MKCoordinateRegion(center: userLocation.coordinate, span: span)
+        mapView.setRegion(theRegion, animated: true)
     }
     
 }
