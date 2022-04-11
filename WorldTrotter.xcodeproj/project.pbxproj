@@ -18,6 +18,7 @@
 		1921B9E32800CB1D008FEA71 /* WorldTrotterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921B9E22800CB1D008FEA71 /* WorldTrotterUITestsLaunchTests.swift */; };
 		1921B9F02801D09D008FEA71 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921B9EF2801D09D008FEA71 /* MapViewController.swift */; };
 		1921B9F22801DAC3008FEA71 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921B9F12801DAC3008FEA71 /* QuizViewController.swift */; };
+		1980BF5B2804D51100E6FBF0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1980BF5D2804D51100E6FBF0 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,9 @@
 		1980BF562804CA4E00E6FBF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		1980BF572804CAC100E6FBF0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		1980BF582804CAC900E6FBF0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		1980BF5C2804D51100E6FBF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1980BF5E2804D51300E6FBF0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1980BF5F2804D51400E6FBF0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		1921B9BE2800CB1A008FEA71 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				1980BF5D2804D51100E6FBF0 /* Localizable.strings */,
 				1921B9BF2800CB1A008FEA71 /* AppDelegate.swift */,
 				1921B9C12800CB1A008FEA71 /* SceneDelegate.swift */,
 				1921B9C32800CB1A008FEA71 /* ConversionViewController.swift */,
@@ -243,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1921B9CC2800CB1C008FEA71 /* LaunchScreen.storyboard in Resources */,
+				1980BF5B2804D51100E6FBF0 /* Localizable.strings in Resources */,
 				1921B9C92800CB1C008FEA71 /* Assets.xcassets in Resources */,
 				1921B9C72800CB1A008FEA71 /* Main.storyboard in Resources */,
 			);
@@ -327,6 +333,16 @@
 				1921B9CB2800CB1C008FEA71 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1980BF5D2804D51100E6FBF0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1980BF5C2804D51100E6FBF0 /* en */,
+				1980BF5E2804D51300E6FBF0 /* ar */,
+				1980BF5F2804D51400E6FBF0 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

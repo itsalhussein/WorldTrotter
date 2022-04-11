@@ -14,11 +14,17 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     var mapView: MKMapView!
     
     override func loadView() {
+        //create a map view
         mapView = MKMapView()
         
+        //Set it as *the* vuew if this view controller
         view = mapView
         
-        let segmentedControl = UISegmentedControl(items: ["Standard","Hybrid","Satalite"])
+        let standardString = NSLocalizedString("Standard", comment: "Standard map view")
+        let hybridString = NSLocalizedString("Hybrid", comment: "Hybrid map view")
+        let sataliteString = NSLocalizedString("Satalite", comment: "Satalite map view")
+        
+        let segmentedControl = UISegmentedControl(items: [standardString, hybridString, sataliteString])
         segmentedControl.backgroundColor = UIColor.systemBackground
         segmentedControl.selectedSegmentIndex = 0
         
@@ -29,12 +35,12 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(segmentedControl)
         
+        //constraints of the segment *programmatically*
         let topConstraint = segmentedControl.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8)
         
         let margins = view.layoutMarginsGuide
         let leadingConstraint = segmentedControl.leadingAnchor.constraint(equalTo: margins.leadingAnchor)
         let trailingConstraint = segmentedControl.trailingAnchor.constraint(equalTo: margins.trailingAnchor)
-        
         topConstraint.isActive = true
         leadingConstraint.isActive = true
         trailingConstraint.isActive = true
